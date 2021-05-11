@@ -1,5 +1,4 @@
 const { default: axios } = require('axios');
-const { Console } = require('console');
 var https = require('https');
 const cron = require("node-cron");
 
