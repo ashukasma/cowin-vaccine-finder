@@ -2,7 +2,7 @@
 
 This project is created to quickly find vaccine to your location. My distId is 770, You can update with your one in index.js
 
-## Development
+## Installation & Usage
 
 - npm install
 - npm start
