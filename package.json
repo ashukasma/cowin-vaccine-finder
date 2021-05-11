@@ -1,0 +1,25 @@
+{
+  "name": "cowin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashukasma/cowin-india.git"
+  },
+  "author": "Ashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashukasma/cowin-india/issues"
+  },
+  "homepage": "https://github.com/ashukasma/cowin-india#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-cron": "^3.0.0",
+    "play-sound": "^1.1.3"
+  }
+}
