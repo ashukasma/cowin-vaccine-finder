@@ -63,7 +63,6 @@ function getVaccine(distId) {
     }
 }
 
-// getVaccine(770);
-cron.schedule("*/20 * * * * *", function () {
+cron.schedule("*/60 * * * * *", function () {
     getVaccine(770);
 });
