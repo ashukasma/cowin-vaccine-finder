@@ -1,7 +1,8 @@
 # Cowin Vaccine Finder
 
-This project is created to quickly find vaccine to your location.
-You can change distId (770) 
+This project is created to quickly find vaccine to your location. My distId is 770, You can update with your one in index.js
+
+## Development
 
 - npm install
 - npm start
