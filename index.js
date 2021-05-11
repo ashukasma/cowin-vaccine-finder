@@ -66,7 +66,8 @@ function getVaccine(distId) {
         })
 }
 
+let distId = 770; // Ahmedabad Corporation
 cron.schedule("*/60 * * * * *", function () {
-    getVaccine(770);
+    getVaccine(distId);
     Object.keys(require.cache).forEach(function (key) { delete require.cache[key] })
 });
