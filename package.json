@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ashukasma/cowin-india#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "node-cron": "^3.0.0",
     "play-sound": "^1.1.3"
