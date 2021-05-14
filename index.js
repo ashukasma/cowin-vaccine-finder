@@ -46,6 +46,7 @@ function getVaccine(distId) {
                                 console.log("******************************");
                                 console.log("Center Name : " + center.name);
                                 console.log("Center Address : " + center.address);
+                                console.log("Center pincode : " + center.pincode);
                                 console.log("Date : " + session.date);
                                 console.log("Availability : " + session.available_capacity);
                                 console.log("Slot : " + session.slots);
@@ -66,7 +67,7 @@ function getVaccine(distId) {
 }
 
 let distId = 770; // Ahmedabad Corporation
-cron.schedule("*/60 * * * * *", function () {
+cron.schedule("*/30 * * * * *", function () {
     getVaccine(distId);
     Object.keys(require.cache).forEach(function (key) { delete require.cache[key] })
 });
